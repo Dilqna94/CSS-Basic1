@@ -1,0 +1,47 @@
+﻿
+body, form, fieldset, input, label, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+body
+{
+	//background-color: rgba(254, 250, 178, 0.99);
+	padding: 5px;
+	form {
+		width: 940px;
+		margin:0 auto;
+		fieldset {
+			text-align: center;
+			position: relative;
+
+			label {
+				width: 150px;
+				height: 150px;
+			}
+
+			
+			img:first-of-type {
+				width: 150px;
+				height: 150px;
+			}
+			
+			img:last-of-type {
+				position: absolute;
+				top:160px;
+				height: 480px;
+				width: 480px;
+				display: none;
+			}
+
+			input[type="radio"] {
+				display: none;
+				&:checked + label img:last-of-type {
+					display: block;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+
+div{
+    display: block;
+}
+
+section{
+    width: 400px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.article{
+    border: 1px solid #999;
+    padding: 15px;
+    /*margin: 36px 0px; */
+    margin: 3em 0;
+    background-color: #ffffff;
+    font: 12px arial, sans-serif;
+}
+.article img{
+    border: 1px solid #999;
+    margin-right: 15px;
+    float: left;
+}
+h1{
+    margin: 0px;
+    font: 18px "arial narrow", arial, sans-serif;
+}
+p{
+    display: block;
+    margin: 0 0 1em 0;
+}
+
+.clear{
+    clear: both;
+}
+/* buttons */
+
+.btn button{
+    background: left #CC0000 url(btn.gif) repeat-y;
+    border: 2px solid #E68282;
+    border-color: #e98180 #580000 #660000 #bc6d6f;
+    padding: 3px 15px 3px 20px;
+    color: white;
+    font-weight: normal;
+    text-align: right;
+}
+.btn{
+    padding-top: 10px;
+    float: right;
+}

@@ -1,0 +1,36 @@
+body{
+    background: rgba(76, 76, 76, 0.98);
+}
+
+th, td{
+    font-family: "Calibri Light";
+    text-align: left;
+}
+
+#heading{
+    color: #c7c7c7;
+    text-align: left;
+}
+
+.title{
+    font-style: italic;
+    color: white;
+}
+
+#redtxt{
+    font-weight: bold;
+ color: #fc0529;
+}
+
+.yellowtxt{
+    color: #fef2b2;
+}
+
+#orangetxt{
+color: #df6b2a;
+font-weight: bold;
+}
+
+.greytxt{
+  color: #c7c7c7;
+}

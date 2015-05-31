@@ -1,0 +1,82 @@
+div{
+    display: block;
+}
+section{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 1070px;
+    margin: 0 auto;
+}
+/*navigation*/
+section>header>nav>ul{
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+}
+section>header>nav>ul>li{
+    display: inline-block;
+}
+section>header>nav>ul>li>a{
+    font-size: 30px;
+    font-family: "Candara";
+    font-weight: bold;
+    color: #00aef0;
+    margin-right: 5px;
+}
+header:after{
+    content:"";
+    display: block;
+    width: auto;
+    border-bottom: 2px solid #000000;
+    margin: 0 35px;
+}
+/*content*/
+#content{
+    width: 66%;
+    float: left;
+    margin: 15px;
+    border: 2px solid #000000;
+    padding: 10px;
+    font-family: Candara;
+    font-size: 20px;
+}
+fieldset span{
+    display: inline-block;
+    margin: 10px;
+}
+.left-fieldset{
+    width: 50%;
+    float: left;
+}
+.leftFl{
+    width: 50%;
+    float: left;
+}
+.rightFl{
+    float: right;
+
+}
+.rightFl span{
+    margin: 10px;
+
+}
+fieldset>span{
+    display: inline-block;
+    margin: 10px;
+}
+.firstspan{
+   margin-top: 25px;
+}
+/*aside*/
+aside{
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    padding: 8% 0;
+}
+aside div{
+    margin: 25px 0;
+}
+.clear{
+    clear: both;
+}

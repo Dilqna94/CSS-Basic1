@@ -1,0 +1,36 @@
+body{
+    background-color: #a9a9a9;
+}
+
+h1{
+    color: #fafad2;
+    font-size: 38px;
+}
+section>article>header>h1{
+    font-size: 22px;
+}
+li, body>footer, body>header{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li>a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+li:last-child{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li>a:hover{
+    background: #d3d3d3;
+}
+footer>p>a:hover{
+    text-decoration: underline;
+}
+
